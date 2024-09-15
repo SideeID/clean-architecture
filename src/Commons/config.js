@@ -9,6 +9,7 @@ if (process.env.NODE_ENV === 'test') {
   dotenv.config();
 }
 
+// eslint-disable-next-line no-unused-vars
 const config = {
   database: {
     host: process.env.PGHOST,

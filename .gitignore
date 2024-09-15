@@ -1,3 +1,7 @@
 node_modules
 .env
 .test.env
+coverage/Icov-report
+coverage/clover.xml
+coverage/coverage-final.json
+coverage/lcov.info

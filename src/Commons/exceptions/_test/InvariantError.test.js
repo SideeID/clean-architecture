@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const InvariantError = require('../InvariantError');
 
 describe('InvariantError', () => {

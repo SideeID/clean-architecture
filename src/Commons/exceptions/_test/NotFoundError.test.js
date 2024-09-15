@@ -1,5 +1,5 @@
+/* eslint-disable no-undef */
 const NotFoundError = require('../NotFoundError');
-
 
 describe('NotFoundError', () => {
   it('should create error correctly', () => {
@@ -8,5 +8,5 @@ describe('NotFoundError', () => {
     expect(notFoundError.message).toEqual('not found!');
     expect(notFoundError.statusCode).toEqual(404);
     expect(notFoundError.name).toEqual('NotFoundError');
-  })
-})
+  });
+});
